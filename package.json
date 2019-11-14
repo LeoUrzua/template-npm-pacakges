@@ -1,0 +1,28 @@
+{
+  "name": "template-npm-packages",
+  "version": "0.0.0",
+  "description": "Publish npm packages using semantic release, commitizen, and commitlint",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Success: no test specified but mocking a success response to pass the ci checks\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoUrzua/template-npm-pacakges.git"
+  },
+  "keywords": [
+    "npm",
+    "semantic",
+    "release",
+    "commitizen",
+    "commitlint",
+    "publish",
+    "registry"
+  ],
+  "author": "Leo Urzua <d.leonardo.urzua@gmail.com>)",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LeoUrzua/template-npm-pacakges/issues"
+  },
+  "homepage": "https://github.com/LeoUrzua/template-npm-pacakges#readme"
+}

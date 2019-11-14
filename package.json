@@ -1,40 +1,9 @@
 {
-  "name": "template-npm-packages",
-  "version": "0.0.0",
-  "description": "Publish npm packages using semantic release, commitizen, and commitlint",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Success: no test specified but mocking a success response to pass the ci checks\" && exit 0",
-    "semantic-release": "semantic-release"
-  },
-  "husky": {
-    "hooks": {
-      "pre-commit": "npm test",
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
-    }
-  },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/LeoUrzua/template-npm-pacakges.git"
-  },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/@LeoUrzua"
-  },
-  "keywords": [
-    "npm",
-    "semantic",
-    "release",
-    "commitizen",
-    "commitlint",
-    "publish",
-    "registry"
-  ],
-  "author": "Leo Urzua <d.leonardo.urzua@gmail.com>)",
-  "license": "ISC",
+  "author": "Leo Urzua <d.leonardo.urzua@gmail.com>",
   "bugs": {
     "url": "https://github.com/LeoUrzua/template-npm-pacakges/issues"
   },
-  "homepage": "https://github.com/LeoUrzua/template-npm-pacakges#readme",
+  "description": "Publish npm packages using semantic release, commitizen, and commitlint",
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
@@ -42,5 +11,36 @@
     "@semantic-release/git": "^7.0.18",
     "husky": "^3.0.9",
     "semantic-release": "^15.13.30"
-  }
+  },
+  "homepage": "https://github.com/LeoUrzua/template-npm-pacakges#readme",
+  "husky": {
+    "hooks": {
+      "pre-commit": "npm test",
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "keywords": [
+    "commitizen",
+    "commitlint",
+    "npm",
+    "publish",
+    "registry",
+    "release",
+    "semantic"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "template-npm-packages",
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@LeoUrzua"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LeoUrzua/template-npm-pacakges.git"
+  },
+  "scripts": {
+    "test": "echo \"Success: no test specified but mocking a success response to pass the ci checks\" && exit 0",
+    "semantic-release": "semantic-release"
+  },
+  "version": "0.0.0"
 }

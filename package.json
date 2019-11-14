@@ -17,6 +17,9 @@
     "type": "git",
     "url": "git+https://github.com/LeoUrzua/template-npm-pacakges.git"
   },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/@LeoUrzua"
+  },
   "keywords": [
     "npm",
     "semantic",

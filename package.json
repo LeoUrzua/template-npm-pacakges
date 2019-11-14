@@ -4,7 +4,8 @@
   "description": "Publish npm packages using semantic release, commitizen, and commitlint",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Success: no test specified but mocking a success response to pass the ci checks\" && exit 0"
+    "test": "echo \"Success: no test specified but mocking a success response to pass the ci checks\" && exit 0",
+    "semantic-release": "semantic-release"
   },
   "husky": {
     "hooks": {

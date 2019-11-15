@@ -69,6 +69,8 @@ to install the project:
    
 1. Start to develop your package
 
+1. Use `npm run commit` to use [Commitizen](http://commitizen.github.io/cz-cli/) to help you format your commit messages
+
 [⇧ back to top](#table-of-contents)
 
 ## Tests

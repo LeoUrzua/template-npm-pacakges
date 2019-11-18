@@ -96,7 +96,7 @@ To publish your npm package to a different registry you need to do some changes 
 }
 ```
 
-Note: in the example above we are publishing to the `npm` registry to the `LeoUrzua` organization
+Note: in the example above we are publishing to the `LeoUrzua` organization in the GitHub `npm` registry.
 
 to 
 

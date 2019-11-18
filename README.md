@@ -16,6 +16,7 @@ CD: on every push to master
 ## Table of Contents
     
 - [Introduction](#introduction)
+  - [Who is the target audience?](who-is-the-target-audience?)
 - [Local Installation](#local-installation)
   - [Prerequisites](#prerequisites)
   - [Installing](#installing)
@@ -34,6 +35,9 @@ The technologies used include:
 - `husky` to trigger hooks.
 - `commitlint` helps your team adhering to a commit convention.
 
+### Who is the target audience?
+
+If you want to publish a new npm package/library this repo helps you to set up your all the environment (CI, semantic release, commits) to do it faster.
 
 [⇧ back to top](#table-of-contents)
 

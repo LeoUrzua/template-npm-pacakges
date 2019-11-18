@@ -3,12 +3,19 @@
   "bugs": {
     "url": "https://github.com/LeoUrzua/template-npm-pacakges/issues"
   },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  },
   "description": "Publish npm packages using semantic release, commitizen, and commitlint",
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-conventional": "^8.2.0",
     "@semantic-release/changelog": "^3.0.5",
     "@semantic-release/git": "^7.0.18",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "^3.0.2",
     "husky": "^3.0.9",
     "semantic-release": "^15.13.30"
   },
@@ -39,6 +46,7 @@
     "url": "git+https://github.com/LeoUrzua/template-npm-pacakges.git"
   },
   "scripts": {
+    "commit": "git-cz",
     "test": "echo \"Success: no test specified but mocking a success response to pass the ci checks\" && exit 0",
     "semantic-release": "semantic-release"
   },
